@@ -1058,7 +1058,7 @@ export default {
                       values +
                     '</div>'
           } else {
-            label = cell.value
+            label = cell.value ? `<div class="rt-content text-wrap">${cell.value}</div>` : ''
           }
         }
 
