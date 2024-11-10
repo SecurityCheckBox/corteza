@@ -1064,7 +1064,6 @@ input[type="color"].form-control:disabled {
     background-color: $input-bg;
     background-clip: padding-box;
     border: $input-border-width solid $input-border-color;
-    height: $input-height;
 
     @if $enable-rounded {
       border-radius: $input-border-radius;
